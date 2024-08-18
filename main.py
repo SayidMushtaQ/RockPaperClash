@@ -5,12 +5,15 @@ Key Details:
 2) Paper: P
 3) Scissor: S
 ----------0_0-------''')
+import random
 
+options = ['r','p','s']
+options_inOBj = {'r':"Rock",'p':'Paper','s':'Scissor'}
 shoot = input("Enter a KEY: ").lower();
 
-samantha = 'p'.lower()
+samantha = random.choice(options)
 
-
+print(f'Your shoot {options_inOBj.get(shoot)} and samantha shoot {options_inOBj.get(samantha)}',end=": ")
 
 if shoot == samantha:
     print("Ooo!! this is draw 😅");
@@ -28,4 +31,4 @@ else:
     elif shoot=='s' and samantha == 'r':
         print('Samantha win 🥳');
     else:
-        print("Someone did bad something 🐍🐍")
+        print("Someone did bad something 🪨  📜 ✂️")
