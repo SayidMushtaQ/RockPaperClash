@@ -21,7 +21,7 @@ else:
     if shoot == 'r' and samantha == 'p':
         print('Samantha win 🥳')
     elif shoot=='p' and samantha == 'r':
-        print('You Win 🥳🚀');
+        print('You Win 🥳 🚀');
     elif shoot == 's' and samantha == 'p':
         print("You win 🥳🚀");
     elif shoot == 'p' and samantha == 's':
