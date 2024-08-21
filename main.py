@@ -14,7 +14,7 @@ shoot = input("Enter a KEY: ").lower();
 pre_socre = int(score_store.read());
 samantha = random.choice(options)
 
-print(f"Your shoot {options_inOBj.get(shoot)} and samantha shoot {options_inOBj.get(samantha)} \n{f'Your higest score: {pre_socre}' if pre_socre != 0 else ''}",end='') # if {} else is same as JS -> ?:
+print(f"Your shoot {options_inOBj.get(shoot)} and samantha shoot {options_inOBj.get(samantha)} \n{f'Your higest score: {pre_socre}' if pre_socre != 0 else ''}",end=' ') # if {} else is same as JS -> ?:
 
 if shoot == samantha:
     print("Ooo!! this is draw 😅");
